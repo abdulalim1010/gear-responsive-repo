@@ -28,7 +28,7 @@ a{
 .para{
   max-width:1200px;
   margin-right: 100px;
-  padding-left: 40px;
+  padding: 40px;
 
 }
 .section-image{
@@ -91,6 +91,11 @@ gap: 30px;
   .out  {
     flex-direction: column;
   } 
+  .para{
+    flex-direction: column;
+    margin-right: 30px;
+    padding: 0px;
+  }
   .logo{
     flex-direction: column;
   }
@@ -111,6 +116,10 @@ gap: 30px;
   
   .food-sub{
     flex-direction: column;
+  }
+  .section-image{
+    padding: 0%;
+    margin: 0px;
   }
 }
   
